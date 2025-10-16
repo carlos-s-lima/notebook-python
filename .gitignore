@@ -1,0 +1,25 @@
+# Ambientes Virtuais
+venv/
+.venv/
+env/
+.env/
+
+# Cache do Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Arquivos de IDEs
+.vscode/
+.idea/
+
+# Arquivos de build do PyInstaller
+build/
+dist/
+*.spec
+
+# Bancos de dados locais (se não quiser versioná-los)
+*.db
+*.sqlite
+*.sqlite3
