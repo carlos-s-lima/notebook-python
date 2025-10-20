@@ -1,10 +1,16 @@
 import os
+import sys
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 from sqlalchemy.orm import declarative_base
 
 DB_NAME = "meu_banco.db"
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
+if getattr(sys, 'frozen', False):
+    BASE_DIR = os.getcwd() 
+else:
+    BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
 DATABASE_URL = f"sqlite:///{os.path.join(BASE_DIR, DB_NAME)}"
 
 engine = create_engine(
@@ -20,6 +26,5 @@ SessionLocal = sessionmaker(
     autoflush=False,   
     bind=engine        
 )
-
 
 Base = declarative_base()
