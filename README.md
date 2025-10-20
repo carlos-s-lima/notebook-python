@@ -4,8 +4,6 @@
   
 Uma aplicação desktop para gerenciamento de notas desenvolvida com Python, PySide6 e SQLAlchemy.
 
-[![Release](https://img.shields.io/github/v/release/seu-usuario/caderno-digital?style=for-the-badge)](https://github.com/seu-usuario/caderno-digital/releases/tag/v1.0.0)
-[![License](https://img.shields.io/badge/license-MIT-blue?style=for-the-badge)](LICENSE)
 [![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 [![Qt](https://img.shields.io/badge/Qt-41CD52?style=for-the-badge&logo=qt&logoColor=white)](https://www.qt.io/)
 [![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)](https://www.sqlite.org/)
