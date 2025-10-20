@@ -1,5 +1,5 @@
 from sqlalchemy.orm import Session
-from . import models
+import src.models as models
 
 def create_note(db: Session, title: str, content: str, notebook_id: int):
     db_note = models.Note(

@@ -2,7 +2,7 @@ from PySide6.QtWidgets import (
     QDialog, QVBoxLayout, QLineEdit, QTextEdit, 
     QDialogButtonBox, QLabel, QWidget
 )
-from . import models
+import src.models as models
 
 class NoteDialog(QDialog):
 

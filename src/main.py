@@ -7,10 +7,10 @@ from PySide6.QtWidgets import (
     QTableWidgetItem, QHeaderView, QAbstractItemView, QMessageBox,
     QInputDialog, QStatusBar 
 )
-from .database import SessionLocal, engine, Base
-from . import models
-from . import crud
-from .dialogs import NoteDialog
+from src.database import SessionLocal, engine, Base
+import src.models as models
+import src.crud as crud
+from src.dialogs import NoteDialog
 
 STYLESHEET = """
 QWidget {
