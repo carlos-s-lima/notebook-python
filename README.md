@@ -58,7 +58,7 @@ O Caderno Digital é uma aplicação desktop que permite criar, editar, excluir 
 
 ### Executável Windows
 
-Disponível na [Release v1.0.0](https://github.com/seu-usuario/caderno-digital/releases/tag/v1.0.0) - Inclui arquivo `.exe` standalone.
+Disponível na [Release v1.0.0](https://github.com/carlos-s-lima/notebook-python/releases/tag/v1.0.0) - Inclui arquivo `.exe` standalone.
 
 ## Arquitetura
 
